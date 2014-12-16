@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/karthikintern/AndroidStudioProjects/pillreminder-master/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="app_name">PillReminder</string>
+    <string name="hello">Hello World, PillReminderActivity!</string>
+
+</resources>

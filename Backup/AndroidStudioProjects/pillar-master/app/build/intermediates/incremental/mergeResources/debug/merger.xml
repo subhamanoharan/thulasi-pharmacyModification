@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0-rc1" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res" >
+            <file
+                name="bluetooth"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/bluetooth.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bluetooth_disconnected"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/bluetooth_disconnected.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="first_step_icon"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/first_step_icon.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="info"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/info.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="instructions_background"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/instructions_background.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="necklace"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/necklace.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="pills"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/pills.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="product"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/product.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="splash_screen"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/splash_screen.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="step1"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/step1.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="step2"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/step2.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="step3"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable/step3.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="edit_icon"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable-hdpi/edit_icon.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="edit_icon"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable-mdpi/edit_icon.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="authenticate_view"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/authenticate_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="connection_view"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/connection_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="done_view"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/done_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="instruction_view"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/instruction_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="settings_view"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/settings_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="email" >Enter your e-mail
+                </string>
+                <string name="Choose" >Choose a time
+                </string>
+                <string name="logo" >logo
+                </string>
+                <string name="Set" >Confirm
+                </string>
+                <string name="pillar" >Enter the pillar number
+                </string>
+                <string name="instructionblue2" >Turn on Pill-ar\'s \nbluetooth
+                </string>
+                <string name="Fashion" >a fashion statement
+                </string>
+                <string name="setremind" >Set your reminder
+                </string>
+                <string name="app_name" >pillar
+                </string>
+                <string name="Medication" >medication is now ...
+                </string>
+                <string name="name" >Name
+                </string>
+                <string name="hello_world" >Hello world!
+                </string>
+                <string name="instructionblue1" >Keep the Pill-ar \nnear the phone
+                </string>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+        </source>
+        <source path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/build/generated/res/rs/debug" />
+        <source path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/debug/res" />
+    </dataSet>
+
+</merger>

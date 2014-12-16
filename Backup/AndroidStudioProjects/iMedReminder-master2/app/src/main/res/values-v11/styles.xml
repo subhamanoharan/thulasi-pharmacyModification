@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iMed.Theme.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorPrimaryInverse">#ffffffff</item>
+    </style>
+</resources>

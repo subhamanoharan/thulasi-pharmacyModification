@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/prescription_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="10dp">
+
+        <TextView android:id="@+id/prescription_title"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="@android:style/TextAppearance.Large"/>
+
+        <TextView android:id="@+id/prescription_details"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/issue_date"/>
+
+        <TextView android:id="@+id/issue_date"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="5dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/prescribed_by"/>
+
+        <TextView android:id="@+id/prescribed_by"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <LinearLayout android:id="@+id/medicine_list_section"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:orientation="vertical">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold"
+                      android:text="@string/medicine_list"/>
+
+            <LinearLayout android:id="@+id/medicine_list"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:orientation="vertical"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

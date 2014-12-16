@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0-rc1" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/app1/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res" >
+            <file
+                name="icn_18x18_black_white_message_notification"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable/icn_18x18_black_white_message_notification.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icn_18x18_message_notification"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable/icn_18x18_message_notification.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icn_30x30_message_notification"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable/icn_30x30_message_notification.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="icon_extension"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable/icon_extension.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="redgradient"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable/redgradient.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="widget_default_userpic_bg"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable/widget_default_userpic_bg.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_logo"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-hdpi/ic_logo.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_add"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-hdpi/ic_menu_add.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_sort_by_size"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-hdpi/ic_menu_sort_by_size.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_logo"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-ldpi/ic_logo.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_add"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-ldpi/ic_menu_add.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_sort_by_size"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-ldpi/ic_menu_sort_by_size.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_logo"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-mdpi/ic_logo.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_add"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-mdpi/ic_menu_add.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_menu_sort_by_size"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/drawable-mdpi/ic_menu_sort_by_size.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="alert"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/alert.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alert_with_tts"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/alert_with_tts.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="alertlauncher"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/alertlauncher.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="detail"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_meds"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/fragment_meds.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_reminders"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/fragment_reminders.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/list_item_medicine.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_my_medicines"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/list_item_my_medicines.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_reminder"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/list_item_reminder.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="fragment_meds"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout-land/fragment_meds.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="fragment_reminders"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/layout-land/fragment_reminders.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="reminders"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/menu/reminders.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="preference_key_is_active" >preference_key_is_active
+                </string>
+                <string name="menuRemindersSortByTime" >by time
+                </string>
+                <string name="menuReminders" >Reminders
+                </string>
+                <string name="preference_key_clear" >preference_key_clear
+                </string>
+                <string name="preference_key_read_me" >preference_key_read_me
+                </string>
+                <string name="labelSmartPreferencesActivity" >SmartWatch
+                </string>
+                <string name="clear_success" >All events have been deleted
+                </string>
+                <string name="menuSettings" >Settings
+                </string>
+                <string name="action_event_1" >Action Toast
+                </string>
+                <string name="menuRemindersSortByName" >by name
+                </string>
+                <string name="prefCategoryAlerts" >Alerts
+                </string>
+                <string name="messageTakeMeds" >Please take your pill!
+                </string>
+                <string name="menuAlarm" >Alarm
+                </string>
+                <string name="source_name" >MedReminder Smart source
+                </string>
+                <string name="prefSmsSummary" >The phone number of the person who needs to be alerted when the user doesn\'t respond
+                </string>
+                <string name="labelRemindersActivity" >Reminders
+                </string>
+                <string name="prefTimeNoon" >Noon
+                </string>
+                <string name="labelAlertWithTtsActivity" >Alert with TTS
+                </string>
+                <string name="search_label" >Search
+                </string>
+                <string name="prefActivityLabel" >Edit preferences
+                </string>
+                <string name="menuRemindersAdd" >Add
+                </string>
+                <string name="menuSmart" >SmartWatch
+                </string>
+                <string name="extension_name" >MedReminder Smart
+                </string>
+                <string name="menuMeds" >Meds
+                </string>
+                <string name="preference_option_is_active" >Active
+                </string>
+                <string name="menuRemindersSort" >Sort
+                </string>
+                <string name="dummy" >TODO
+                </string>
+                <string name="clear_failure" >Failed to delete events
+                </string>
+                <string name="configuration_text" >MedReminder Smart Settings
+                </string>
+                <string name="preference_activity_title" >MedReminder Smart Settings
+                </string>
+                <string name="prefTimeMorning" >Morning
+                </string>
+                <string name="prefTimeEvening" >Evening
+                </string>
+                <string name="errorTtsLangNotAvailable" >TTS language not available: %1$s
+                </string>
+                <string name="working" >Working...
+                </string>
+                <string name="prefCategoryTiming" >Timing
+                </string>
+                <string name="preference_option_clear" >Clear All Events
+                </string>
+                <string name="search_hint" >Hint
+                </string>
+                <string name="preference_option_clear_txt" >"All sample events on device will be cleared, continue?"
+                </string>
+                <string name="text_to_speech" >New sample notification event from
+                </string>
+                <string name="prefBedtime" >Bedtime
+                </string>
+                <string name="prefSmsTitle" >Sms alert number
+                </string>
+                <string name="preference_option_read_me_txt" >1. Check menu option Active to generate events based on a static timer.\n\n2. Uncheck menu option Active to cancel the event generator.\n\n3. Tap Clear All Events to remove all events.
+                </string>
+                <string name="labelMedsActivity" >Meds
+                </string>
+                <string name="app_name" >MedReminder
+                </string>
+                <string name="preference_option_read_me" >README
+                </string>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/values-fr/strings.xml"
+                qualifiers="fr" >
+                <string name="prefSmsSummary" >Le numéro de GSM de la personne qui doît être averti, s\'il n\'y a pas de réaction aux alertes.
+                </string>
+                <string name="prefCategoryAlerts" >Alertes
+                </string>
+                <string name="prefSmsTitle" >GSM pour les message SMS
+                </string>
+                <string name="labelRemindersActivity" >Alertes
+                </string>
+                <string name="prefBedtime" >Avant de se coucher
+                </string>
+                <string name="hello" >Salut au monde, MedReminderActivity!
+                </string>
+                <string name="dummy" >TODO
+                </string>
+                <string name="menuRemindersSort" >Ordonner
+                </string>
+                <string name="prefActivityLabel" >Configuration
+                </string>
+                <string name="labelAlertWithTtsActivity" >Rappel à l\'aide de synthèse de voix
+                </string>
+                <string name="labelMedsActivity" >Médication
+                </string>
+                <string name="prefTimeMorning" >Le matin
+                </string>
+                <string name="prefTimeEvening" >Le soir
+                </string>
+                <string name="menuMeds" >Médications
+                </string>
+                <string name="prefCategoryTiming" >Timing
+                </string>
+                <string name="menuRemindersAdd" >Ajouter
+                </string>
+                <string name="menuRemindersSortByName" >sur nom
+                </string>
+                <string name="prefTimeNoon" >À midi
+                </string>
+                <string name="menuSettings" >Configuration
+                </string>
+                <string name="labelNotificationActivity" >labelNotificationActivity
+                </string>
+                <string name="menuAlarm" >Alerte
+                </string>
+                <string name="menuReminders" >Alertes
+                </string>
+                <string name="errorTtsLangNotAvailable" >Il n\'y à pas de support pour la synthèse de voix pour cette langue: %1$s
+                </string>
+                <string name="app_name" >MedReminder
+                </string>
+                <string name="menuRemindersSortByTime" >sur temps
+                </string>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/values-nl/strings.xml"
+                qualifiers="nl" >
+                <string name="prefTimeEvening" >Avond
+                </string>
+                <string name="labelMedsActivity" >Medicatie
+                </string>
+                <string name="prefCategoryAlerts" >Waarschuwingen
+                </string>
+                <string name="labelNotificationActivity" >labelNotificationActivity
+                </string>
+                <string name="prefSmsTitle" >GSM voor SMS-boodschappen
+                </string>
+                <string name="app_name" >MedReminder
+                </string>
+                <string name="menuMeds" >Medicijnen
+                </string>
+                <string name="labelRemindersActivity" >Herinneringen
+                </string>
+                <string name="prefTimeNoon" >Middag
+                </string>
+                <string name="prefActivityLabel" >Instellingen
+                </string>
+                <string name="prefBedtime" >Voor \'t slapengaan
+                </string>
+                <string name="hello" >Hoi wereld, MedReminderActivity!
+                </string>
+                <string name="menuRemindersSortByName" >op naam
+                </string>
+                <string name="errorTtsLangNotAvailable" >Er is spraaksynthese mogelijk voor deze taal: %1$s
+                </string>
+                <string name="menuRemindersSortByTime" >op tijdstip
+                </string>
+                <string name="dummy" >TODO
+                </string>
+                <string name="prefTimeMorning" >Ochtend
+                </string>
+                <string name="menuRemindersAdd" >Toevoegen
+                </string>
+                <string name="menuAlarm" >Alarm
+                </string>
+                <string name="prefSmsSummary" >Het telefoonnummer van de persoon, die op de hoogte gebracht moeten worden, als er niet wordt gereageerd op de herinneringen.
+                </string>
+                <string name="menuSettings" >Instellingen
+                </string>
+                <string name="labelAlertWithTtsActivity" >Herinnering met spraaksynthese
+                </string>
+                <string name="prefCategoryTiming" >Timing
+                </string>
+                <string name="menuReminders" >Herinneringen
+                </string>
+                <string name="menuRemindersSort" >Sorteren
+                </string>
+            </file>
+            <file
+                name="preferences"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/xml/preferences.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="preferences_liveware"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/xml/preferences_liveware.xml"
+                qualifiers=""
+                type="xml" />
+            <file
+                name="searchable"
+                path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/main/res/xml/searchable.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/karthikintern/AndroidStudioProjects/app1/app/build/generated/res/rs/debug" />
+        <source path="/Users/karthikintern/AndroidStudioProjects/app1/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/app1/app/src/debug/res" />
+    </dataSet>
+
+</merger>

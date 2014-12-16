@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/save_cancel_btn_layer"
+             android:id="@+id/save_cancel_buttons_layer"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/save_cancel_buttons_layer"
+                android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="10dp">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/title"/>
+
+            <EditText android:id="@+id/title_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textCapSentences"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/details"/>
+
+            <EditText android:id="@+id/details_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="top"
+                      android:inputType="textMultiLine|textCapSentences"
+                      android:lines="2"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/prescribed_by"/>
+
+            <TextView android:id="@+id/pick_doctor_view"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      android:background="@drawable/textview_border"
+                      android:gravity="center"
+                      android:clickable="true"
+                      android:onClick="onSelectDoctorClicked"
+                      android:text="@string/tap_to_select_doctor"/>
+
+            <Button android:id="@+id/add_medicine_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="@string/add_medicine"
+                    android:onClick="onAddMedicineButtonClicked"/>
+
+            <ListView android:id="@+id/medicine_list"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_prescription.xml -->

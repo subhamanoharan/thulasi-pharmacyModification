@@ -1,0 +1,15 @@
+node-android2 -> Node Backend
+ReminderApp  - > Android Application
+
+* Install MongoDB
+* Install NodeJS
+* Install Android SDK
+* Install IntelliJ IDEA
+* Install Android Emulators (preferably genymotion)
+
+NodeJS Codebase:
+* npm install
+* node app
+
+Android app:
+* Dependent upon IDE. Open "build.grade" in IntelliJ IDEA after setting up android sdks

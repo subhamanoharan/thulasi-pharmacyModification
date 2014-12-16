@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+<string-array name="color">
+    <item>App Default</item>
+    <item>White</item>
+    <item>Gray</item>
+    <item>Red</item>
+    <item>Blue</item>
+</string-array>
+
+<string-array name="color_v">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+</string-array>
+
+<string-array name="ring">
+    <item>Siren</item>
+    <item>Buzzer</item>
+    <item>door</item>
+    <item>bell</item>
+    
+</string-array>
+
+<string-array name="ring_v">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+   
+</string-array>
+
+<string-array name="snooze">
+    <item>1 Min</item>
+    <item>5 Min</item>
+    <item>10 Min</item>
+    <item>15 Min</item>
+    <item>30 Min</item>
+    
+</string-array>
+
+<string-array name="snooze_v">
+    <item>1</item>
+    <item>2</item>
+    <item>3</item>
+    <item>4</item>
+    <item>5</item>
+   
+</string-array>
+
+
+</resources>

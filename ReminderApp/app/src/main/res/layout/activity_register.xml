@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+       <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    android:background="#CEF6EC"
+        tools:context=".LoginActivity" >
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="#FFEF70"
+            android:src="@drawable/ic_thulasi_logo" />
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:id="@+id/phno"
+        android:layout_marginTop="30px"
+        android:hint="9876543210"/>
+
+    <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:id="@+id/email"
+            android:hint="example@mail.com"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:inputType="textPassword"
+        android:hint="******"/>
+
+    <Button
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_gravity="center"
+    android:id="@+id/registerbtn"
+    android:background="@drawable/btn_black_blue"
+    android:textColor="#ffffff"
+    android:textAlignment="center"
+    android:text="Register"/>
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:id="@+id/login"
+        android:background="@drawable/btn_back"
+        android:textColor="#ffffff"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:text="Login"/>
+</LinearLayout>

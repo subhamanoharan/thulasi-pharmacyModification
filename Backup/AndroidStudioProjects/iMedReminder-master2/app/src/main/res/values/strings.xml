@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- General/Common Strings -->
+    <string name="app_name">iMedReminder</string>
+    <string name="type_to_filter">Type to filter…</string>
+    <string name="list_empty">The list is empty. Please use the menu to add items.</string>
+    <string name="loading">Loading…</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="required">Required</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="not_available">N/A</string>
+    <string name="doctor">Doctor</string>
+    <string name="pharmacy">Pharmacy</string>
+
+    <!-- Medicine Types -->
+    <string name="tablet">Tablet</string>
+    <string name="capsule">Capsule</string>
+    <string name="syrup">Syrup</string>
+    <string name="injection">Injection</string>
+    <string name="saline">Saline</string>
+    <string name="drop">Drop</string>
+    <string name="cream">Cream/Oinment</string>
+    <string name="inhaler">Inhaler</string>
+    <string name="spray">Spray</string>
+    <string name="other">Other</string>
+
+    <!-- Dashboard -->
+    <string name="prescriptions">Prescriptions</string>
+    <string name="medicines">Medicines</string>
+    <string name="doctors">Doctors</string>
+    <string name="pharmacies">Pharmacies</string>
+    <string name="appointments">Appointments</string>
+    <string name="schedules">Schedules</string>
+
+
+    <!-- ********************** -->
+    <!--        Medicine        -->
+    <!-- ********************** -->
+
+    <!-- Medicine List -->
+    <string name="medicine_list">Medicine List</string>
+    <string name="x_units_available">%1$s %2$s available</string>
+    <string name="new_medicine">New Medicine</string>
+
+    <!-- Medicine Details -->
+    <string name="medicine_details">Medicine Details</string>
+
+    <!-- Add/Edit Medicine -->
+    <string name="medicine_name">Medicine Name</string>
+    <string name="details">Details</string>
+    <string name="current_stock">Current Stock</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="remove_photo">Remove Photo</string>
+    <string name="camera_unavailable">Sorry, your device does not have any camera.</string>
+    <string name="add_medicine_photo">Add Medicine Photo</string>
+    <string name="take_from_camera">Take From Camera</string>
+    <string name="pick_from_gallery">Pick From Gallery</string>
+    <string name="pick_from_stock">Pick From Stock</string>
+    <string name="select_med_photo">Select Medicine Photo</string>
+
+
+    <!-- ********************** -->
+    <!--         Doctor         -->
+    <!-- ********************** -->
+
+    <!-- Doctor List -->
+    <string name="doctor_list">Doctor List</string>
+    <string name="new_doctor">New Doctor</string>
+
+    <!-- Doctor Details-->
+    <string name="doctor_details">Doctor Details</string>
+
+    <!-- Add/Edit Doctor -->
+    <string name="doctor_name">Doctor Name</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="email">Email</string>
+    <string name="website">Website</string>
+    <string name="notes">Notes</string>
+    <string name="add_doctor_photo">Add Doctor Photo</string>
+    <string name="invalid_email">Invalid Email Address</string>
+    <string name="invalid_url">Invalid Website URL</string>
+
+
+    <!-- ********************** -->
+    <!--        Pharmacy        -->
+    <!-- ********************** -->
+
+    <!-- Pharmacy List -->
+    <string name="pharmacy_list">Pharmacy List</string>
+    <string name="new_pharmacy">New Pharmacy</string>
+
+    <!-- Pharmacy Details-->
+    <string name="pharmacy_details">Pharmacy Details</string>
+
+    <!-- Add/Edit Pharmacy -->
+    <string name="pharmacy_name">Pharmacy Name</string>
+
+
+    <!-- ********************** -->
+    <!--      Appointment       -->
+    <!-- ********************** -->
+
+    <!-- Appointment List -->
+    <string name="appointment_list">Appointment List</string>
+    <string name="new_appointment">New Appointment</string>
+
+    <!-- Appointment Details-->
+    <string name="appointment_details">Appointment Details</string>
+
+    <!-- Add/Edit Appointment -->
+    <string name="appointment_with">Appointment With</string>
+    <string name="appointment_with_doctor">@string/doctor</string>
+    <string name="appointment_with_pharmacy">@string/pharmacy</string>
+    <string name="appointment_with_other">@string/other</string>
+    <string name="appointment_time">Appointment Time</string>
+    <string name="pick_pharmacy">Pick Pharmacy</string>
+    <string name="remind_before">Remind Before</string>
+    <string name="time_interval_hours">Hour(s)</string>
+    <string name="time_interval_minutes">Minute(s)</string>
+    <string name="time_interval_days">@string/days</string>
+    <string name="tap_to_select_x">Tap to Select %s</string>
+
+
+    <!-- ********************** -->
+    <!--      Prescription      -->
+    <!-- ********************** -->
+
+    <!-- Prescription List -->
+    <string name="prescription_list">Prescription List</string>
+    <string name="new_prescription">New Prescription</string>
+    <string name="added_on">Added on %s</string>
+
+    <!-- Prescription Details-->
+    <string name="prescription_details">Prescription Details</string>
+    <string name="issue_date">Issue Date</string>
+
+    <!-- Add/Edit Prescription -->
+    <string name="title">Title</string>
+    <string name="prescribed_by">Prescribed By</string>
+    <string name="tap_to_select_doctor">Tap to Select Doctor</string>
+    <string name="add_medicine">Add Medicine</string>
+    <string name="remove">Remove</string>
+    <string name="pick_doctor">Pick Doctor</string>
+    <string name="add_medicine_to_prescription">Add Medicine to Prescription</string>
+    <string name="medicine_list_item_details">For %1$d days with %2$d dose(s) %3$s starting from %4$s</string>
+    <string name="everyday">everyday</string>
+    <string name="every_x_days">every %d day(s)</string>
+
+    <!-- Medicine Schedule Activity -->
+    <string name="medicine_schedule">Medicine Schedule</string>
+    <string name="start_from">Start from</string>
+    <string name="take">Take</string>
+    <string name="doses_every">dose(s) every</string>
+    <string name="days">day(s)</string>
+    <string name="for_a_total_of">for a total of</string>
+    <string name="sentence_terminator">.</string>
+    <string name="units_at">%s(s) at</string>
+    <string name="dose_no">Dose %d</string>
+    <string name="must_be_greater_than_zero">Must be greater than 0</string>
+    <string name="add_reminder_times">Add Reminder Times</string>
+
+
+    <!-- ********************** -->
+    <!--        Schedule        -->
+    <!-- ********************** -->
+    <string name="x_doses">%d dose(s)</string>
+
+
+    <!-- ********************** -->
+    <!--     Notification       -->
+    <!-- ********************** -->
+    <string name="notification_ticker_text">iMedReminder Reminder</string>
+    <string name="medicine_schedule_reminder">Medicine Schedule Reminder</string>
+    <string name="notification_reminder">iMedReminder Reminder</string>
+</resources>

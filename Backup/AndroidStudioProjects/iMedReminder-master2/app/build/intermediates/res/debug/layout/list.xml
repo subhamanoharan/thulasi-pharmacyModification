@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge>
+    <include layout="@layout/list_container"/>
+</merge>
+<!-- From: file:/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list.xml -->

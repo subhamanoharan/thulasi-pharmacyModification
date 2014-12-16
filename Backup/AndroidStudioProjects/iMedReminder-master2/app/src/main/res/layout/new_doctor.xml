@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/save_cancel_btn_layer"
+             android:id="@+id/save_cancel_buttons_layer"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/save_cancel_buttons_layer"
+                android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="10dp">
+
+            <RelativeLayout android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                <ImageButton android:id="@+id/take_photo_btn"
+                             android:layout_width="64dp"
+                             android:layout_height="64dp"
+                             android:layout_alignParentRight="true"
+                             android:src="@drawable/btn_take_photo"
+                             android:contentDescription="@string/take_photo"
+                             android:onClick="onTakePhotoButtonClicked"/>
+
+                <LinearLayout android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:orientation="vertical"
+                              android:layout_toLeftOf="@id/take_photo_btn">
+
+                    <TextView android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:text="@string/doctor_name"/>
+
+                    <EditText android:id="@+id/doc_name_input"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:inputType="textPersonName|textCapWords"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/phone"/>
+
+            <EditText android:id="@+id/doc_phone_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="phone"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/address"/>
+
+            <EditText android:id="@+id/doc_address_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textPostalAddress|textMultiLine|textCapSentences"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/email"/>
+
+            <EditText android:id="@+id/doc_email_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textEmailAddress"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/website"/>
+
+            <EditText android:id="@+id/doc_website_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textUri"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/notes"/>
+
+            <EditText android:id="@+id/notes_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="top"
+                      android:inputType="textMultiLine|textCapSentences"
+                      android:lines="2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

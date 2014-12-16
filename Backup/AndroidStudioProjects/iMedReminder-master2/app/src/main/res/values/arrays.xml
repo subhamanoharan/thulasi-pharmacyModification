@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="doctor_photo_taking_options">
+        <item>@string/take_from_camera</item>
+        <item>@string/pick_from_gallery</item>
+    </string-array>
+
+    <string-array name="medicine_photo_taking_options">
+        <item>@string/take_from_camera</item>
+        <item>@string/pick_from_gallery</item>
+        <item>@string/pick_from_stock</item>
+    </string-array>
+</resources>

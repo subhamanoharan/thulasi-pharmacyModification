@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MedsReminder</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Take your Meds!!!</string>
+    <string name="title_activity_splash_screen">Take your Meds</string>
+    <string name="team_name">Take Your Meds!!! by Team 2 CSE5324</string>
+    <string name="title_activity_list_view">Take your Meds</string>
+    <string name="title_activity_med_detail">Take your Meds</string>
+    <string name="detailview_textview_name">Name: </string>
+    <string name="detailview_textview_desc">Description: </string>
+    <string name="detailview_textview_dose">Dose:</string>
+    <string name="detailview_textview_date">Date:</string>
+    <string name="detailview_textview_time">Time:</string>
+    <string name="detailview_textview_image">Image:</string>
+    <string name="detailview_textview_hinterval">Hour Interval:</string>
+    <string name="detailview_textview_minterval">Min Interval:</string>
+    <string name="detailview_button_save">Save</string>
+    <string name="detailview_button_cancel">Cancel</string>
+    <string name="detailview_checkbox_textview_mon">Mo</string>
+    <string name="detailview_checkbox_textview_tue">Tu</string>
+    <string name="detailview_checkbox_textview_wed">We</string>
+    <string name="detailview_checkbox_textview_thr">Th</string>
+    <string name="detailview_checkbox_textview_sat">Sa</string>
+    <string name="detailview_checkbox_textview_fri">Fr</string>
+    <string name="detailview_checkbox_textview_sun">Su</string>
+    <string name="splashscreen_imageview_content">Spash Screen Application Picrure</string>
+    <string name="listview_addbutton">+</string>
+    <string name="rowloayout_label">A Medicine</string>
+    <string name="rowlayout_imageDescription">Image for Displaying user pictures of medicines</string>
+    <string name="title_activity_med_notification">Take your Meds!!!</string>
+	<string name="activity_med_detail_btn_select_image">Choose Image</string>
+	<string name="activity_med_notification_txt_med_dose">Dose Goes Here!!</string>
+	<string name="activity_med_notification_txt_med_name">Medicine Name Goes Here!!</string>
+	<string name="activity_med_notification_txt_med_notification">It Is Time to Take Your Medicine!!</string>
+	<string name="activity_med_notification_btn_snooze">Snooze</string>
+	<string name="activity_med_notification_btn_stop">Stop</string>
+	
+</resources>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.cryptic.imed"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="15"/>
+
+    <supports-screens android:smallScreens="true"
+                      android:normalScreens="true"
+                      android:largeScreens="true"
+                      android:xlargeScreens="true"
+                      android:anyDensity="true"/>
+
+    <!-- WRITE_EXTERNAL_STORAGE permission is needed to delete temp photo capture files created on sdcard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher"
+                 android:theme="@style/iMed.Theme.Light">
+
+        <!-- Dashboard Activity -->
+        <activity android:name=".activity.DashboardActivity"
+                  android:label="@string/app_name"
+                  android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <!-- Medicine Activities -->
+        <activity android:name=".activity.medicine.MedicineListActivity"
+                  android:label="@string/medicine_list"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.medicine.MedicineDetailsActivity"
+                  android:label="@string/medicine_details"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.medicine.AddEditMedicineActivity"
+                  android:label="@string/new_medicine"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+
+        <!-- Doctor Activities -->
+        <activity android:name=".activity.doctor.DoctorListActivity"
+                  android:label="@string/doctor_list"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.doctor.DoctorDetailsActivity"
+                  android:label="@string/doctor_details"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.doctor.AddEditDoctorActivity"
+                  android:label="@string/new_doctor"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+
+        <!-- Pharmacy Activities -->
+        <activity android:name=".activity.pharmacy.PharmacyListActivity"
+                  android:label="@string/pharmacy_list"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.pharmacy.PharmacyDetailsActivity"
+                  android:label="@string/pharmacy_details"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.pharmacy.AddEditPharmacyActivity"
+                  android:label="@string/new_pharmacy"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+
+        <!-- Appointment Activities -->
+        <activity android:name=".activity.appointment.AppointmentListActivity"
+                  android:label="@string/appointment_list"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.appointment.AppointmentDetailsActivity"
+                  android:label="@string/appointment_details"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.appointment.AddEditAppointmentActivity"
+                  android:label="@string/new_appointment"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.appointment.PickPharmacyActivity"
+                  android:label="@string/pick_pharmacy"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+
+        <!-- Prescription Activities -->
+        <activity android:name=".activity.prescription.PrescriptionListActivity"
+                  android:label="@string/prescription_list"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.prescription.PrescriptionDetailsActivity"
+                  android:label="@string/prescription_details"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.prescription.AddEditPrescriptionActivity"
+                  android:label="@string/new_prescription"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.prescription.PickDoctorActivity"
+                  android:label="@string/pick_doctor"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.prescription.AddMedicineActivity"
+                  android:label="@string/add_medicine_to_prescription"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.prescription.MedicineScheduleActivity"
+                  android:label="@string/medicine_schedule"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name=".activity.ScheduleActivity"/>
+
+        <!-- Reminder Notification Activity -->
+        <activity android:name=".activity.ReminderDetailsActivity"
+                  android:label="@string/notification_reminder"
+                  android:windowSoftInputMode="stateHidden"
+                  android:configChanges="orientation|screenSize|keyboardHidden"/>
+    </application>
+
+</manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="add_drug">Add Drug</string>
+    <string name="add_treatment">Add Treatment</string>
+    <string name="app_name">Pill Reminder</string>
+    <string name="hello">Hello World, TreatmentListActivity!</string>
+    <string name="options">Options</string>
+    <string name="search_drug_hint">Search drug...</string>
+    <string name="treatment_name_hint">Type name...</string>
+
+</resources>

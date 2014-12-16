@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.sonyericsson.eventstream">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/com.sonyericsson.eventstream.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

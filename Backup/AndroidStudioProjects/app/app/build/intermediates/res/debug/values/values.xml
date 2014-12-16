@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/karthikintern/AndroidStudioProjects/app/app/src/main/res/values/strings.xml -->
+    <eat-comment />
+
+    <string name="action_event_1">Action Toast</string>
+    <string name="app_name">MedReminder</string>
+    <string name="clear_failure">Failed to delete events</string>
+    <string name="clear_success">All events have been deleted</string>
+    <string name="configuration_text">MedReminder Smart Settings</string>
+    <string name="dummy">TODO</string>
+    <string name="errorTtsLangNotAvailable">TTS language not available: %1$s</string>
+    <string name="extension_name">MedReminder Smart</string>
+    <string name="labelAlertWithTtsActivity">Alert with TTS</string>
+    <string name="labelMedsActivity">Meds</string>
+    <string name="labelRemindersActivity">Reminders</string>
+    <string name="labelSmartPreferencesActivity">SmartWatch</string>
+    <string name="menuAlarm">Alarm</string>
+    <string name="menuMeds">Meds</string>
+    <string name="menuReminders">Reminders</string>
+    <string name="menuRemindersAdd">Add</string>
+    <string name="menuRemindersSort">Sort</string>
+    <string name="menuRemindersSortByName">by name</string>
+    <string name="menuRemindersSortByTime">by time</string>
+    <string name="menuSettings">Settings</string>
+    <string name="menuSmart">SmartWatch</string>
+    <string name="messageTakeMeds">Please take your pill!</string>
+    <string name="prefActivityLabel">Edit preferences</string>
+    <string name="prefBedtime">Bedtime</string>
+    <string name="prefCategoryAlerts">Alerts</string>
+    <string name="prefCategoryTiming">Timing</string>
+    <string name="prefSmsSummary">The phone number of the person who needs to be alerted when the user doesn\'t respond</string>
+    <string name="prefSmsTitle">Sms alert number</string>
+    <string name="prefTimeEvening">Evening</string>
+    <string name="prefTimeMorning">Morning</string>
+    <string name="prefTimeNoon">Noon</string>
+    <string name="preference_activity_title">MedReminder Smart Settings</string>
+    <string name="preference_key_clear">preference_key_clear</string>
+    <string name="preference_key_is_active">preference_key_is_active</string>
+    <string name="preference_key_read_me">preference_key_read_me</string>
+    <string name="preference_option_clear">Clear All Events</string>
+    <string name="preference_option_clear_txt">"All sample events on device will be cleared, continue?"</string>
+    <string name="preference_option_is_active">Active</string>
+    <string name="preference_option_read_me">README</string>
+    <string name="preference_option_read_me_txt">1. Check menu option Active to generate events based on a static timer.\n\n2. Uncheck menu option Active to cancel the event generator.\n\n3. Tap Clear All Events to remove all events.</string>
+    <string name="search_hint">Hint</string>
+    <string name="search_label">Search</string>
+    <string name="source_name">MedReminder Smart source</string>
+    <string name="text_to_speech">New sample notification event from</string>
+    <string name="working">Working...</string>
+
+</resources>

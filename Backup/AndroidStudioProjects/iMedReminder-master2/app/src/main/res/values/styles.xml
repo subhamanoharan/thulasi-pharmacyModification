@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="iMed.Theme.Light" parent="@android:style/Theme.Light">
+        <item name="android:textColorSecondaryInverse">#000000</item>
+    </style>
+</resources>

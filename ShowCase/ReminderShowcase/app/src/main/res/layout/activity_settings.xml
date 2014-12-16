@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="440px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/chgbtn"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Change Password"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_black_blue"
+        android:layout_marginTop="15dp"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="440px"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:background="@drawable/btn_back_red"
+        android:textColor="#ffffff"
+        android:textAlignment="center"
+        android:text="Logout"
+        android:layout_toEndOf="@+id/webView"
+        android:layout_below="@+id/chgbtn"
+        android:layout_alignLeft="@+id/chgbtn"
+        android:layout_alignStart="@+id/chgbtn"
+        android:layout_marginTop="15dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFEF70"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_thulasi_logo"/>
+
+    <WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/webView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:visibility="invisible"/>
+
+    <Button
+        android:layout_width="440px"
+        android:layout_height="wrap_content"
+        android:text="View Prescription"
+        android:id="@+id/BtnViewPres"
+        android:gravity="center"
+        android:layout_above="@+id/chgbtn"
+        android:background="@drawable/btn_back"
+        android:layout_alignLeft="@+id/chgbtn"
+        android:layout_alignStart="@+id/chgbtn"
+       />
+
+
+</RelativeLayout>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="create_drug_form"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/create_drug_form.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="create_treatment_form"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/create_treatment_form.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drug_list"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/drug_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drug_list_item"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/drug_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drug_search_results"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/drug_search_results.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="options"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/options.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="treatment_list"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/treatment_list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="treatment_list_item"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/layout/treatment_list_item.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="drug_list_menu"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/menu/drug_list_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="treatment_list_menu"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/menu/treatment_list_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="app_name" >Pill Reminder
+                </string>
+                <string name="treatment_name_hint" >Type name...
+                </string>
+                <string name="add_treatment" >Add Treatment
+                </string>
+                <string name="search_drug_hint" >Search drug...
+                </string>
+                <string name="add_drug" >Add Drug
+                </string>
+                <string name="options" >Options
+                </string>
+                <string name="hello" >Hello World, TreatmentListActivity!
+                </string>
+            </file>
+            <file
+                name="searchable_drug"
+                path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/main/res/xml/searchable_drug.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/build/generated/res/rs/debug" />
+        <source path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/Pill-Reminder-master/app/src/debug/res" />
+    </dataSet>
+
+</merger>

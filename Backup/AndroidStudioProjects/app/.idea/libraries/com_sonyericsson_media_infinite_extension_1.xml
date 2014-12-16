@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="com.sonyericsson.media.infinite.extension_1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/com.sonyericsson.media.infinite.extension_1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

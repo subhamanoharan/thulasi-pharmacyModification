@@ -1,0 +1,31 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 10
+    buildToolsVersion "20.0.0"
+
+    defaultConfig {
+        applicationId "be.bedroid.medreminder"
+        minSdkVersion 4
+        targetSdkVersion 4
+        compileOptions {
+            sourceCompatibility JavaVersion.VERSION_1_5
+            targetCompatibility JavaVersion.VERSION_1_5
+        }
+    }
+
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:+'
+    compile files('libs/com.sonyericsson.eventstream.jar')
+    compile files('libs/com.sonyericsson.media.infinite.extension_1.jar')
+    compile files('libs/com_sonyericsson_extras_liveware_extension_util.jar')
+    compile files('libs/extensionapi.jar')
+}

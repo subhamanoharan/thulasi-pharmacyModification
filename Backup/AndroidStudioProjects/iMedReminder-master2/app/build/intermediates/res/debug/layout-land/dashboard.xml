@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <TableLayout android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center">
+
+        <TableRow android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="15dp"
+                       android:layout_gravity="center_vertical"
+                       android:contentDescription="@string/prescriptions"
+                       android:onClick="onPrescriptionsClicked"
+                       android:src="@drawable/prescription"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="15dp"
+                       android:layout_marginRight="15dp"
+                       android:layout_gravity="center_vertical"
+                       android:contentDescription="@string/medicines"
+                       android:onClick="onMedicinesClicked"
+                       android:src="@drawable/medicine"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="15dp"
+                       android:layout_gravity="center_vertical"
+                       android:contentDescription="@string/prescriptions"
+                       android:onClick="onDoctorsClicked"
+                       android:src="@drawable/doctor"/>
+        </TableRow>
+        <TableRow android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="15dp"
+                      android:gravity="center"
+                      android:textAppearance="@android:style/TextAppearance.Medium"
+                      android:clickable="true"
+                      android:onClick="onPrescriptionsClicked"
+                      android:text="@string/prescriptions"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:gravity="center"
+                      android:textAppearance="@android:style/TextAppearance.Medium"
+                      android:clickable="true"
+                      android:onClick="onMedicinesClicked"
+                      android:text="@string/medicines"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:gravity="center"
+                      android:textAppearance="@android:style/TextAppearance.Medium"
+                      android:clickable="true"
+                      android:onClick="onDoctorsClicked"
+                      android:text="@string/doctors"/>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp"
+                  android:layout_marginTop="20dp">
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginRight="15dp"
+                       android:layout_gravity="center_vertical"
+                       android:contentDescription="@string/medicines"
+                       android:onClick="onPharmaciesClicked"
+                       android:src="@drawable/pharmacy"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="15dp"
+                       android:layout_marginRight="15dp"
+                       android:layout_gravity="center_vertical"
+                       android:contentDescription="@string/prescriptions"
+                       android:onClick="onAppointmentsClicked"
+                       android:src="@drawable/appointment"/>
+            <ImageView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:layout_marginLeft="15dp"
+                       android:layout_gravity="center_vertical"
+                       android:contentDescription="@string/medicines"
+                       android:onClick="onSchedulesClicked"
+                       android:src="@drawable/schedule"/>
+        </TableRow>
+        <TableRow android:layout_marginLeft="15dp"
+                  android:layout_marginRight="15dp">
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginRight="15dp"
+                      android:gravity="center"
+                      android:textAppearance="@android:style/TextAppearance.Medium"
+                      android:clickable="true"
+                      android:onClick="onPharmaciesClicked"
+                      android:text="@string/pharmacies"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:layout_marginRight="15dp"
+                      android:gravity="center"
+                      android:textAppearance="@android:style/TextAppearance.Medium"
+                      android:clickable="true"
+                      android:onClick="onAppointmentsClicked"
+                      android:text="@string/appointments"/>
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginLeft="15dp"
+                      android:gravity="center"
+                      android:textAppearance="@android:style/TextAppearance.Medium"
+                      android:clickable="true"
+                      android:onClick="onSchedulesClicked"
+                      android:text="@string/schedules"/>
+        </TableRow>
+
+    </TableLayout>
+
+</ScrollView>
+<!-- From: file:/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout-land/dashboard.xml -->

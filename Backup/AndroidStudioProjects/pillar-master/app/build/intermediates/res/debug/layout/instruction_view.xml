@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/load_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+    <!--
+         <Button
+        android:id="@+id/info"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/info"
+        android:contentDescription="@string/logo" />
+    -->
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/info"
+        android:layout_alignTop="@+id/info"
+        android:layout_marginRight="19dp"
+        android:layout_marginTop="48dp"
+        android:text="@string/instructionblue1"
+        android:textColor="#777676"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/info"
+        android:layout_marginBottom="36dp"
+        android:layout_toLeftOf="@+id/textView1"
+        android:text="@string/instructionblue2"
+        android:textColor="#777676"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/first_step_icon"
+        android:contentDescription="@string/logo" />
+
+</RelativeLayout><!-- From: file:/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/instruction_view.xml -->

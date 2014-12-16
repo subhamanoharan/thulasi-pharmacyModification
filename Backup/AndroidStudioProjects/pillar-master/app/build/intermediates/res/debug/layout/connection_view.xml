@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+
+        <TextView
+            android:id="@+id/tvconnected2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tvconnected1"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="57dp"
+            android:visibility="invisible"
+            android:text="CONNECTED"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/tvconnected1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/tvconnected2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="28dp"
+            android:text="Sending data to Pillar device ..."
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/CancelBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="69dp"
+            android:textColor="#FFFFFF" 
+            android:text="Cancel" />
+
+</RelativeLayout><!-- From: file:/Users/karthikintern/AndroidStudioProjects/pillar-master/app/src/main/res/layout/connection_view.xml -->

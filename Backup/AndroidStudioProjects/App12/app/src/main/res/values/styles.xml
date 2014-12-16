@@ -1,0 +1,12 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="MyButton" parent="android:MediaButton.Next">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

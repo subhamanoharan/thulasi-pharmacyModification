@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, TreatmentListActivity!</string>
+    <string name="app_name">Pill Reminder</string>
+
+    <string name="options">Options</string>
+    <string name="add_treatment">Add Treatment</string>
+
+    <string name="add_drug">Add Drug</string>
+
+    <string name="treatment_name_hint">Type name...</string>
+
+    <string name="search_drug_hint">Search drug...</string>
+
+</resources>

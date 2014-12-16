@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_main"
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="main"
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="margin_huge" >64dp
+                </dimen>
+                <dimen name="margin_tiny" >4dp
+                </dimen>
+                <dimen name="margin_large" >32dp
+                </dimen>
+                <dimen name="margin_medium" >16dp
+                </dimen>
+                <dimen name="margin_small" >8dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="connection_error" >Connection error.
+                </string>
+                <string name="no_doodle" >No Google doodle today.
+                </string>
+                <string name="doodle_alert" >Doodle Alert
+                </string>
+                <string name="doodle_found" >There is a Google doodle today!!
+                </string>
+                <string name="cancel_text" >Cancel Alarm
+                </string>
+                <string name="start_text" >Start Alarm
+                </string>
+                <string name="app_name" >Scheduler
+                </string>
+                <string name="intro_message" >Welcome to 
+<b>
+Scheduler
+                    </b>!
+        This sample demonstrates how you can schedule an alarm that causes a service to
+        be started. This is useful when you want to schedule alarms that initiate
+        long-running operations. Click START ALARM to activate an alarm to check
+        the Google home page for a custom doodle once a day. If the app finds a doodle,
+        it posts a \"Doodle Alert\" as a notification. Click CANCEL ALARM to cancel the 
+        alarm. Once the alarm is active, it automatically restarts when the device is 
+        rebooted.
+                </string>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style name="Widget" />
+
+                <style name="Widget.SampleOutput" >
+                    <item name="android:padding">
+@dimen/margin_medium
+                    </item>
+                    <item name="android:textAppearance">
+?android:textAppearanceMedium
+                    </item>
+                    <item name="android:lineSpacingMultiplier">
+1.1
+                    </item>
+                </style>
+
+                <style
+                    name="Theme.Base"
+                    parent="android:Theme.Light" />
+
+                <style
+                    name="Theme.Sample"
+                    parent="Theme.Base" />
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/values-sw600dp/styles.xml"
+                qualifiers="sw600dp-v13" >
+
+                <style name="Widget.SampleOutput" >
+                    <item name="android:paddingTop">
+@dimen/margin_medium
+                    </item>
+                    <item name="android:paddingBottom">
+@dimen/margin_medium
+                    </item>
+                    <item name="android:paddingLeft">
+@dimen/margin_huge
+                    </item>
+                    <item name="android:paddingRight">
+@dimen/margin_huge
+                    </item>
+                    <item name="android:textAppearance">
+?android:textAppearanceLarge
+                    </item>
+                    <item name="android:lineSpacingMultiplier">
+1.2
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="Theme.Base"
+                    parent="android:Theme.Holo.Light" />
+            </file>
+        </source>
+        <source path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/build/generated/res/rs/debug" />
+        <source path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/Scheduler/app/src/debug/res" />
+    </dataSet>
+
+</merger>

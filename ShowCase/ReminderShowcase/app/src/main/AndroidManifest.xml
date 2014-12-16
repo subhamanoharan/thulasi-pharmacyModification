@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.thoughtworks.karthikintern.ThulasiShowcase" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="Thulasi"
+        android:theme="@style/AppTheme" >
+
+        <activity
+            android:name="com.thoughtworks.karthikintern.ThulasiShowcase.Auth"
+            android:label="Thulasi Showcase" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.thoughtworks.karthikintern.ThulasiShowcase.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.thoughtworks.karthikintern.ThulasiShowcase.MyActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.thoughtworks.karthikintern.ThulasiShowcase.ProfileActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.thoughtworks.karthikintern.ThulasiShowcase.LoginActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.thoughtworks.karthikintern.ThulasiShowcase.PresView"
+            android:label="@string/title_activity_view_pres" >
+        </activity>
+        <activity android:name="com.thoughtworks.karthikintern.ThulasiShowcase.MedTime"></activity>
+        <activity android:name="com.thoughtworks.karthikintern.ThulasiShowcase.StockLow"></activity>
+
+        <activity android:name="com.thoughtworks.karthikintern.ThulasiShowcase.NotifResult"
+            android:label="Result Activity"
+            android:parentActivityName="com.thoughtworks.karthikintern.ThulasiShowcase.ProfileActivity">
+        </activity>
+        <receiver android:name="com.thoughtworks.karthikintern.ThulasiShowcase.RecvAlarm"></receiver>
+        <receiver android:name="com.thoughtworks.karthikintern.ThulasiShowcase.BootReciever" android:enabled="false">
+            <intent-filter><action android:name="android.intent.action.BOOT_COMPLETED"></action> </intent-filter>
+        </receiver>
+        <service android:name="com.thoughtworks.karthikintern.ThulasiShowcase.MedStockScheduler"/>
+
+    </application>
+</manifest>

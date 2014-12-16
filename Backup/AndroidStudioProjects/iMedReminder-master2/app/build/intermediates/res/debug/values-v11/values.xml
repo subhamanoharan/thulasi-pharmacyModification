@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- From: file:/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values-v11/styles.xml -->
+    <eat-comment />
+
+    <style name="iMed.Theme.Light" parent="@android:style/Theme.Holo.Light">
+        <item name="android:textColorPrimaryInverse">#ffffffff</item>
+    </style>
+
+</resources>

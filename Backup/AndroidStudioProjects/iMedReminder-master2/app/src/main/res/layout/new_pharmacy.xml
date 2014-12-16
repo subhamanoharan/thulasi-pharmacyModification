@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/save_cancel_btn_layer"
+             android:id="@+id/save_cancel_buttons_layer"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/save_cancel_buttons_layer"
+                android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="10dp">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/pharmacy_name"/>
+
+            <EditText android:id="@+id/pharmacy_name_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textCapWords"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/phone"/>
+
+            <EditText android:id="@+id/pharmacy_phone_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="phone"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/address"/>
+
+            <EditText android:id="@+id/pharmacy_address_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textPostalAddress|textMultiLine|textCapSentences"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/email"/>
+
+            <EditText android:id="@+id/pharmacy_email_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textEmailAddress"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/website"/>
+
+            <EditText android:id="@+id/pharmacy_website_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textUri"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/notes"/>
+
+            <EditText android:id="@+id/notes_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="top"
+                      android:inputType="textMultiLine|textCapSentences"
+                      android:lines="2"/>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

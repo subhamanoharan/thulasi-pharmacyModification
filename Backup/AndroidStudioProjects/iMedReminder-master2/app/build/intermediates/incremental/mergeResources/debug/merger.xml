@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="main" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res" >
+            <file
+                name="bg_schedule_outside_month"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/bg_schedule_outside_month.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="bg_schedule_within_month"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/bg_schedule_within_month.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_close"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/btn_close.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_close_normal"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/btn_close_normal.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_close_pressed"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/btn_close_pressed.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_close_selected"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/btn_close_selected.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="btn_take_photo"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/btn_take_photo.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_default_med"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_default_med.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_default_photo"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_default_photo.jpeg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_capsule"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_capsule.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_cream"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_cream.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_drop"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_drop.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_inhaler"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_inhaler.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_injection"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_injection.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_other"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_other.png"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_saline"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_saline.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_spray"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_spray.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_syrup"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_syrup.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="ic_med_tablet"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/ic_med_tablet.jpg"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="textview_border"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable/textview_border.xml"
+                qualifiers=""
+                type="drawable" />
+            <file
+                name="appointment"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/appointment.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="doctor"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/doctor.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/medicine.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="pharmacy"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/pharmacy.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="prescription"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/prescription.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="schedule"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-hdpi/schedule.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="appointment"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/appointment.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="doctor"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/doctor.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/ic_launcher.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/medicine.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="pharmacy"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/pharmacy.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="prescription"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/prescription.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="schedule"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-ldpi/schedule.png"
+                qualifiers="ldpi-v4"
+                type="drawable" />
+            <file
+                name="appointment"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/appointment.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="doctor"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/doctor.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/medicine.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="pharmacy"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/pharmacy.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="prescription"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/prescription.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="schedule"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-mdpi/schedule.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="appointment"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/appointment.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="doctor"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/doctor.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/medicine.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="pharmacy"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/pharmacy.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="prescription"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/prescription.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="schedule"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/drawable-xhdpi/schedule.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="dashboard"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/dashboard.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="details_appointment"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/details_appointment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="details_doctor"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/details_doctor.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="details_medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/details_medicine.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="details_pharmacy"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/details_pharmacy.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="details_prescription"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/details_prescription.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_container"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_container.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_dosage"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_item_dosage.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_pick_med_photo_from_stock"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_item_pick_med_photo_from_stock.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_prescription_medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_item_prescription_medicine.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_with_image"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_item_with_image.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_with_image_activated"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_item_with_image_activated.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_item_with_image_content"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_item_with_image_content.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_tablet"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_tablet.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_view"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/list_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="medicine_schedule"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/medicine_schedule.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="new_appointment"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_appointment.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="new_doctor"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_doctor.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="new_medicine"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_medicine.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="new_pharmacy"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_pharmacy.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="new_prescription"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_prescription.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="save_cancel_btn_layer"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/save_cancel_btn_layer.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="schedules"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/schedules.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="dashboard"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout-land/dashboard.xml"
+                qualifiers="land"
+                type="layout" />
+            <file
+                name="list"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout-xlarge/list.xml"
+                qualifiers="xlarge-v4"
+                type="layout" />
+            <file
+                name="edit_delete_options_menu"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/menu/edit_delete_options_menu.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="ormlite_config"
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/raw/ormlite_config.txt"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values/arrays.xml"
+                qualifiers="" >
+                <string-array name="medicine_photo_taking_options" >
+                    <item>
+@string/take_from_camera
+                    </item>
+                    <item>
+@string/pick_from_gallery
+                    </item>
+                    <item>
+@string/pick_from_stock
+                    </item>
+                </string-array>
+                <string-array name="doctor_photo_taking_options" >
+                    <item>
+@string/take_from_camera
+                    </item>
+                    <item>
+@string/pick_from_gallery
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values/colors.xml"
+                qualifiers="" >
+                <color name="save_cancel_button_layer_background" >#DDDDDD
+                </color>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values/roboguice.xml"
+                qualifiers="" >
+                <string-array name="roboguice_modules" >
+                    <item>
+com.cryptic.imed.app.ApplicationModule
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="medicine_details" >Medicine Details
+                </string>
+                <string name="not_available" >N/A
+                </string>
+                <string name="x_units_available" >%1$s %2$s available
+                </string>
+                <string name="pharmacy" >Pharmacy
+                </string>
+                <string name="other" >Other
+                </string>
+                <string name="saline" >Saline
+                </string>
+                <string name="units_at" >%s(s) at
+                </string>
+                <string name="appointment_with_pharmacy" >@string/pharmacy
+                </string>
+                <string name="required" >Required
+                </string>
+                <string name="notification_ticker_text" >iMedReminder Reminder
+                </string>
+                <string name="type_to_filter" >Type to filter…
+                </string>
+                <string name="new_prescription" >New Prescription
+                </string>
+                <string name="new_doctor" >New Doctor
+                </string>
+                <string name="remove" >Remove
+                </string>
+                <string name="everyday" >everyday
+                </string>
+                <string name="added_on" >Added on %s
+                </string>
+                <string name="add_medicine" >Add Medicine
+                </string>
+                <string name="notes" >Notes
+                </string>
+                <string name="add_doctor_photo" >Add Doctor Photo
+                </string>
+                <string name="syrup" >Syrup
+                </string>
+                <string name="address" >Address
+                </string>
+                <string name="pick_pharmacy" >Pick Pharmacy
+                </string>
+                <string name="new_appointment" >New Appointment
+                </string>
+                <string name="injection" >Injection
+                </string>
+                <string name="issue_date" >Issue Date
+                </string>
+                <string name="save" >Save
+                </string>
+                <string name="title" >Title
+                </string>
+                <string name="remove_photo" >Remove Photo
+                </string>
+                <string name="doctor_name" >Doctor Name
+                </string>
+                <string name="inhaler" >Inhaler
+                </string>
+                <string name="prescribed_by" >Prescribed By
+                </string>
+                <string name="pharmacy_list" >Pharmacy List
+                </string>
+                <string name="tap_to_select_x" >Tap to Select %s
+                </string>
+                <string name="take_photo" >Take Photo
+                </string>
+                <string name="phone" >Phone
+                </string>
+                <string name="appointment_with_other" >@string/other
+                </string>
+                <string name="drop" >Drop
+                </string>
+                <string name="pharmacy_name" >Pharmacy Name
+                </string>
+                <string name="time_interval_hours" >Hour(s)
+                </string>
+                <string name="camera_unavailable" >Sorry, your device does not have any camera.
+                </string>
+                <string name="time_interval_days" >@string/days
+                </string>
+                <string name="add_reminder_times" >Add Reminder Times
+                </string>
+                <string name="new_pharmacy" >New Pharmacy
+                </string>
+                <string name="loading" >Loading…
+                </string>
+                <string name="cancel" >Cancel
+                </string>
+                <string name="take" >Take
+                </string>
+                <string name="doctor" >Doctor
+                </string>
+                <string name="pick_from_gallery" >Pick From Gallery
+                </string>
+                <string name="pick_doctor" >Pick Doctor
+                </string>
+                <string name="cream" >Cream/Oinment
+                </string>
+                <string name="invalid_url" >Invalid Website URL
+                </string>
+                <string name="x_doses" >%d dose(s)
+                </string>
+                <string name="take_from_camera" >Take From Camera
+                </string>
+                <string name="start_from" >Start from
+                </string>
+                <string name="days" >day(s)
+                </string>
+                <string name="prescription_list" >Prescription List
+                </string>
+                <string name="app_name" >iMedReminder
+                </string>
+                <string name="appointment_list" >Appointment List
+                </string>
+                <string name="medicine_list" >Medicine List
+                </string>
+                <string name="pharmacies" >Pharmacies
+                </string>
+                <string name="doctor_details" >Doctor Details
+                </string>
+                <string name="every_x_days" >every %d day(s)
+                </string>
+                <string name="for_a_total_of" >for a total of
+                </string>
+                <string name="capsule" >Capsule
+                </string>
+                <string name="must_be_greater_than_zero" >Must be greater than 0
+                </string>
+                <string name="schedules" >Schedules
+                </string>
+                <string name="prescriptions" >Prescriptions
+                </string>
+                <string name="sentence_terminator" >.
+                </string>
+                <string name="medicine_name" >Medicine Name
+                </string>
+                <string name="doctors" >Doctors
+                </string>
+                <string name="notification_reminder" >iMedReminder Reminder
+                </string>
+                <string name="edit" >Edit
+                </string>
+                <string name="dose_no" >Dose %d
+                </string>
+                <string name="list_empty" >The list is empty. Please use the menu to add items.
+                </string>
+                <string name="spray" >Spray
+                </string>
+                <string name="pharmacy_details" >Pharmacy Details
+                </string>
+                <string name="appointments" >Appointments
+                </string>
+                <string name="medicines" >Medicines
+                </string>
+                <string name="appointment_time" >Appointment Time
+                </string>
+                <string name="medicine_schedule" >Medicine Schedule
+                </string>
+                <string name="tap_to_select_doctor" >Tap to Select Doctor
+                </string>
+                <string name="details" >Details
+                </string>
+                <string name="medicine_schedule_reminder" >Medicine Schedule Reminder
+                </string>
+                <string name="doctor_list" >Doctor List
+                </string>
+                <string name="add_medicine_to_prescription" >Add Medicine to Prescription
+                </string>
+                <string name="medicine_list_item_details" >For %1$d days with %2$d dose(s) %3$s starting from %4$s
+                </string>
+                <string name="appointment_with" >Appointment With
+                </string>
+                <string name="current_stock" >Current Stock
+                </string>
+                <string name="doses_every" >dose(s) every
+                </string>
+                <string name="pick_from_stock" >Pick From Stock
+                </string>
+                <string name="email" >Email
+                </string>
+                <string name="invalid_email" >Invalid Email Address
+                </string>
+                <string name="appointment_with_doctor" >@string/doctor
+                </string>
+                <string name="time_interval_minutes" >Minute(s)
+                </string>
+                <string name="appointment_details" >Appointment Details
+                </string>
+                <string name="select_med_photo" >Select Medicine Photo
+                </string>
+                <string name="new_medicine" >New Medicine
+                </string>
+                <string name="tablet" >Tablet
+                </string>
+                <string name="prescription_details" >Prescription Details
+                </string>
+                <string name="delete" >Delete
+                </string>
+                <string name="remind_before" >Remind Before
+                </string>
+                <string name="website" >Website
+                </string>
+                <string name="add_medicine_photo" >Add Medicine Photo
+                </string>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="iMed.Theme.Light"
+                    parent="@android:style/Theme.Light" >
+                    <item name="android:textColorSecondaryInverse">
+#000000
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="iMed.Theme.Light"
+                    parent="@android:style/Theme.Holo.Light" >
+                    <item name="android:textColorPrimaryInverse">
+#ffffffff
+                    </item>
+                </style>
+            </file>
+        </source>
+        <source path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/build/generated/res/rs/debug" />
+        <source path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/debug/res" />
+    </dataSet>
+
+</merger>

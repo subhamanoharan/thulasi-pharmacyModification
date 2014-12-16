@@ -1,0 +1,5 @@
+<resources>
+    <string-array name="roboguice_modules">
+        <item>com.cryptic.imed.app.ApplicationModule</item>
+    </string-array>
+</resources>

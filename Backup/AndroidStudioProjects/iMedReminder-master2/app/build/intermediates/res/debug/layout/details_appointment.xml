@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/appointment_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="10dp">
+
+        <TextView android:id="@+id/title"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="@android:style/TextAppearance.Medium"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/details"/>
+
+        <TextView android:id="@+id/details"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/appointment_with"/>
+
+        <TextView android:id="@+id/appointment_with"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:clickable="true"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/appointment_time"/>
+
+        <TextView android:id="@+id/appointment_time"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/remind_before"/>
+
+        <TextView android:id="@+id/remind_before"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>
+<!-- From: file:/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/details_appointment.xml -->

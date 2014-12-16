@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:background="@android:color/white">
+    
+    <ListPreference
+        
+        android:key="color"
+        android:title="Choose Notification Color"
+        android:entries="@array/color"
+        
+        
+        android:entryValues="@array/color_v"
+        android:defaultValue="1" />
+    
+    <ListPreference
+        
+        android:key="ring"
+        android:title="Notification Sound"
+        android:entries="@array/ring"
+        
+        
+        android:entryValues="@array/ring_v"
+        android:defaultValue="1" />
+    
+    <ListPreference
+        
+        android:key="snooze"
+        android:title="Snooze Time"
+        android:entries="@array/snooze"
+        
+        
+        android:entryValues="@array/snooze_v"
+        android:defaultValue="1" />
+    
+</PreferenceScreen>

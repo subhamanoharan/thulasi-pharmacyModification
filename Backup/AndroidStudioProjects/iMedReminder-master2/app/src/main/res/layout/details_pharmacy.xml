@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pharmacy_details_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true">
+
+    <LinearLayout android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+                  android:padding="10dp">
+
+        <TextView android:id="@+id/pharmacy_name"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:textAppearance="@android:style/TextAppearance.Large"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/address"/>
+
+        <TextView android:id="@+id/pharmacy_address"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/phone"/>
+
+        <TextView android:id="@+id/pharmacy_phone"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:autoLink="phone"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/email"/>
+
+        <TextView android:id="@+id/pharmacy_email"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:autoLink="email"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/website"/>
+
+        <TextView android:id="@+id/pharmacy_website"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:autoLink="web"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_marginTop="15dp"
+                  android:layout_marginBottom="5dp"
+                  android:textStyle="bold"
+                  android:text="@string/notes"/>
+
+        <TextView android:id="@+id/notes"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+</ScrollView>

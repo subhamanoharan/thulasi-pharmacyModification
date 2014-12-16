@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+    <include layout="@layout/save_cancel_btn_layer"
+             android:id="@+id/save_cancel_buttons_layer"/>
+
+    <ScrollView android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@id/save_cancel_buttons_layer"
+                android:fillViewport="true">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:orientation="vertical"
+                      android:padding="10dp">
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/title"/>
+
+            <EditText android:id="@+id/appointment_title_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:inputType="textCapSentences"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/details"/>
+
+            <EditText android:id="@+id/details_input"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:gravity="top"
+                      android:inputType="textMultiLine|textCapSentences"
+                      android:lines="2"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/appointment_with"/>
+
+            <Spinner android:id="@+id/appointment_with_input"
+                     android:layout_width="match_parent"
+                     android:layout_height="wrap_content"/>
+
+            <TextView android:id="@+id/pick_doctor_pharmacy_view"
+                      android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:layout_marginTop="5dp"
+                      android:layout_marginBottom="5dp"
+                      android:paddingTop="10dp"
+                      android:paddingBottom="10dp"
+                      android:background="@drawable/textview_border"
+                      android:gravity="center"
+                      android:clickable="true"
+                      android:onClick="onSelectAppointmentWithSubjectClicked"
+                      android:text="@string/tap_to_select_doctor"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/appointment_time"/>
+
+            <Button android:id="@+id/start_date_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="onStartDateButtonClicked"/>
+
+            <TextView android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+                      android:text="@string/remind_before"/>
+
+            <LinearLayout android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+
+                <EditText android:id="@+id/reminder_offset_input"
+                          android:layout_width="70dp"
+                          android:layout_height="wrap_content"
+
+                          android:inputType="numberDecimal"/>
+
+                <Spinner android:id="@+id/reminder_interval_type_input"
+                         android:layout_width="wrap_content"
+                         android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
+<!-- From: file:/Users/karthikintern/AndroidStudioProjects/iMedReminder-master2/app/src/main/res/layout/new_appointment.xml -->

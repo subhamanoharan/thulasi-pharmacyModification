@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="2" >
+
+    <dataSet config="21.0.0-rc1" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.0-rc1/res" />
+    </dataSet>
+    <dataSet config="main" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res" >
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-hdpi/ic_launcher.png"
+                qualifiers="hdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-mdpi/ic_launcher.png"
+                qualifiers="mdpi-v4"
+                type="drawable" />
+            <file
+                name="custom_btn_arsenic"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xhdpi/custom_btn_arsenic.xml"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher2"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xhdpi/ic_launcher2.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="take_meds_pic1"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xhdpi/take_meds_pic1.jpg"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="trashcan"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xhdpi/trashcan.png"
+                qualifiers="xhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xxhdpi/ic_launcher.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="ic_launcher1"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xxhdpi/ic_launcher1.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="trashcan"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/drawable-xxhdpi/trashcan.png"
+                qualifiers="xxhdpi-v4"
+                type="drawable" />
+            <file
+                name="activity_list_view"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/activity_list_view.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_main"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/activity_main.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_med_detail"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/activity_med_detail.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_med_notification"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/activity_med_notification.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="activity_splash_screen"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/activity_splash_screen.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="lvlayout"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/lvlayout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="rowlayout"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/layout/rowlayout.xml"
+                qualifiers=""
+                type="layout" />
+            <file
+                name="list_view"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/menu/list_view.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="main"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/menu/main.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="med_detail"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/menu/med_detail.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="med_notification"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/menu/med_notification.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="splash_screen"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/menu/splash_screen.xml"
+                qualifiers=""
+                type="menu" />
+            <file
+                name="bell"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/raw/bell.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="buzzer"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/raw/buzzer.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="door"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/raw/door.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                name="sirennoise"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/raw/sirennoise.mp3"
+                qualifiers=""
+                type="raw" />
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values/array.xml"
+                qualifiers="" >
+                <string-array name="color_v" >
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                    <item>
+4
+                    </item>
+                    <item>
+5
+                    </item>
+                </string-array>
+                <string-array name="color" >
+                    <item>
+App Default
+                    </item>
+                    <item>
+White
+                    </item>
+                    <item>
+Gray
+                    </item>
+                    <item>
+Red
+                    </item>
+                    <item>
+Blue
+                    </item>
+                </string-array>
+                <string-array name="ring_v" >
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                    <item>
+4
+                    </item>
+                </string-array>
+                <string-array name="snooze_v" >
+                    <item>
+1
+                    </item>
+                    <item>
+2
+                    </item>
+                    <item>
+3
+                    </item>
+                    <item>
+4
+                    </item>
+                    <item>
+5
+                    </item>
+                </string-array>
+                <string-array name="ring" >
+                    <item>
+Siren
+                    </item>
+                    <item>
+Buzzer
+                    </item>
+                    <item>
+door
+                    </item>
+                    <item>
+bell
+                    </item>
+                </string-array>
+                <string-array name="snooze" >
+                    <item>
+1 Min
+                    </item>
+                    <item>
+5 Min
+                    </item>
+                    <item>
+10 Min
+                    </item>
+                    <item>
+15 Min
+                    </item>
+                    <item>
+30 Min
+                    </item>
+                </string-array>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values/dimens.xml"
+                qualifiers="" >
+                <dimen name="activity_horizontal_margin" >16dp
+                </dimen>
+                <dimen name="activity_vertical_margin" >16dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values/strings.xml"
+                qualifiers="" >
+                <string name="action_settings" >Settings
+                </string>
+                <string name="detailview_button_cancel" >Cancel
+                </string>
+                <string name="detailview_textview_date" >Date:
+                </string>
+                <string name="listview_addbutton" >+
+                </string>
+                <string name="detailview_textview_minterval" >Min Interval:
+                </string>
+                <string name="detailview_textview_desc" >Description: 
+                </string>
+                <string name="activity_med_notification_txt_med_notification" >It Is Time to Take Your Medicine!!
+                </string>
+                <string name="activity_med_notification_txt_med_name" >Medicine Name Goes Here!!
+                </string>
+                <string name="rowloayout_label" >A Medicine
+                </string>
+                <string name="title_activity_list_view" >Take your Meds
+                </string>
+                <string name="title_activity_splash_screen" >Take your Meds
+                </string>
+                <string name="title_activity_med_notification" >Take your Meds!!!
+                </string>
+                <string name="team_name" >Take Your Meds!!! by Team 2 CSE5324
+                </string>
+                <string name="detailview_textview_time" >Time:
+                </string>
+                <string name="detailview_checkbox_textview_fri" >Fr
+                </string>
+                <string name="hello_world" >Take your Meds!!!
+                </string>
+                <string name="detailview_textview_image" >Image:
+                </string>
+                <string name="detailview_checkbox_textview_sun" >Su
+                </string>
+                <string name="detailview_checkbox_textview_mon" >Mo
+                </string>
+                <string name="detailview_textview_name" >Name: 
+                </string>
+                <string name="detailview_checkbox_textview_thr" >Th
+                </string>
+                <string name="detailview_checkbox_textview_sat" >Sa
+                </string>
+                <string name="detailview_textview_dose" >Dose:
+                </string>
+                <string name="title_activity_med_detail" >Take your Meds
+                </string>
+                <string name="activity_med_notification_btn_snooze" >Snooze
+                </string>
+                <string name="detailview_textview_hinterval" >Hour Interval:
+                </string>
+                <string name="activity_med_notification_btn_stop" >Stop
+                </string>
+                <string name="activity_med_notification_txt_med_dose" >Dose Goes Here!!
+                </string>
+                <string name="detailview_checkbox_textview_tue" >Tu
+                </string>
+                <string name="app_name" >MedsReminder
+                </string>
+                <string name="rowlayout_imageDescription" >Image for Displaying user pictures of medicines
+                </string>
+                <string name="detailview_button_save" >Save
+                </string>
+                <string name="detailview_checkbox_textview_wed" >We
+                </string>
+                <string name="splashscreen_imageview_content" >Spash Screen Application Picrure
+                </string>
+                <string name="activity_med_detail_btn_select_image" >Choose Image
+                </string>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values/styles.xml"
+                qualifiers="" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Light" >
+
+                    <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+                    -->
+                </style>
+
+                <style
+                    name="btnStyleArsenic"
+                    parent="@android:style/Widget.Button" >
+                    <item name="android:textSize">
+15sp
+                    </item>
+                    <item name="android:textStyle">
+bold
+                    </item>
+                    <item name="android:textColor">
+#FFFFFF
+                    </item>
+                    <item name="android:gravity">
+center
+                    </item>
+                    <item name="android:shadowColor">
+#000000
+                    </item>
+                    <item name="android:shadowDx">
+1
+                    </item>
+                    <item name="android:shadowDy">
+1
+                    </item>
+                    <item name="android:shadowRadius">
+0.6
+                    </item>
+                    <item name="android:background">
+@drawable/custom_btn_arsenic
+                    </item>
+                    <item name="android:padding">
+10dip
+                    </item>
+                </style>
+
+                <color name="custom_theme_color" >#fff2cd
+                </color>
+
+                <style
+                    name="AppTheme"
+                    parent="AppBaseTheme" >
+
+                    <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+                    <item name="android:windowBackground">
+@color/custom_theme_color
+                    </item>
+                    <item name="android:colorBackground">
+@color/custom_theme_color
+                    </item>
+                </style>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values-sw720dp-land/dimens.xml"
+                qualifiers="sw720dp-land-v13" >
+                <dimen name="activity_horizontal_margin" >128dp
+                </dimen>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values-v11/styles.xml"
+                qualifiers="v11" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light" >
+
+                    <!-- API 11 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/values-v14/styles.xml"
+                qualifiers="v14" >
+
+                <style
+                    name="AppBaseTheme"
+                    parent="android:Theme.Holo.Light.DarkActionBar" >
+
+                    <!-- API 14 theme customizations can go here. -->
+                </style>
+            </file>
+            <file
+                name="preferences"
+                path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/main/res/xml/preferences.xml"
+                qualifiers=""
+                type="xml" />
+        </source>
+        <source path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/build/generated/res/rs/debug" />
+        <source path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/build/generated/res/generated/debug" />
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="/Users/karthikintern/AndroidStudioProjects/meds-reminders-android-master/app/src/debug/res" />
+    </dataSet>
+
+</merger>

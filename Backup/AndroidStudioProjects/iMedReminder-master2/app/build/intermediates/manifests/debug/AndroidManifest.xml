@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cryptic.imed"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="15" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <!-- WRITE_EXTERNAL_STORAGE permission is needed to delete temp photo capture files created on sdcard -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/iMed.Theme.Light" >
+
+        <!-- Dashboard Activity -->
+        <activity
+            android:name="com.cryptic.imed.activity.DashboardActivity"
+            android:label="@string/app_name"
+            android:windowSoftInputMode="stateHidden" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Medicine Activities -->
+        <activity
+            android:name="com.cryptic.imed.activity.medicine.MedicineListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/medicine_list"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.medicine.MedicineDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/medicine_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.medicine.AddEditMedicineActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/new_medicine"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Doctor Activities -->
+        <activity
+            android:name="com.cryptic.imed.activity.doctor.DoctorListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/doctor_list"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.doctor.DoctorDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/doctor_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.doctor.AddEditDoctorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/new_doctor"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Pharmacy Activities -->
+        <activity
+            android:name="com.cryptic.imed.activity.pharmacy.PharmacyListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/pharmacy_list"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.pharmacy.PharmacyDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/pharmacy_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.pharmacy.AddEditPharmacyActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/new_pharmacy"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Appointment Activities -->
+        <activity
+            android:name="com.cryptic.imed.activity.appointment.AppointmentListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/appointment_list"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.appointment.AppointmentDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/appointment_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.appointment.AddEditAppointmentActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/new_appointment"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.appointment.PickPharmacyActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/pick_pharmacy"
+            android:windowSoftInputMode="stateHidden" />
+
+        <!-- Prescription Activities -->
+        <activity
+            android:name="com.cryptic.imed.activity.prescription.PrescriptionListActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/prescription_list"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.prescription.PrescriptionDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/prescription_details"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.prescription.AddEditPrescriptionActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/new_prescription"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.prescription.PickDoctorActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/pick_doctor"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.prescription.AddMedicineActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/add_medicine_to_prescription"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name="com.cryptic.imed.activity.prescription.MedicineScheduleActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/medicine_schedule"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name="com.cryptic.imed.activity.ScheduleActivity" />
+
+        <!-- Reminder Notification Activity -->
+        <activity
+            android:name="com.cryptic.imed.activity.ReminderDetailsActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/notification_reminder"
+            android:windowSoftInputMode="stateHidden" />
+    </application>
+
+</manifest>
