@@ -30,7 +30,7 @@ public class MedStockScheduler extends IntentService {
     public static final String TAG="Scheduling Service";
     SharedPreferences pref;
     String phno,str_dosage,jsonmed,email;
-    Date lastStockUpdate=new Date();
+    int lostStockUpdates=0;
     SharedPreferences.Editor e;
     private static String url = "http://10.0.3.2:8082/pullMed";
     public MedStockScheduler(){
@@ -47,15 +47,20 @@ public class MedStockScheduler extends IntentService {
             if (phno != null) {
                 //JSONObject json = jParser.getJSONFromUrl(url,phno);
                 //checkStock(json);
-                JSONObject json1 = jParser.getJSONFromUrl("http://10.0.3.2:8082/api/resetstock", phno);
-                lastStockUpdate=new Date();
+                JSONObject json1;
+                //Resetting stock for the days internet connection wasnt available
+                for(int i=0;i<lostStockUpdates;i++)
+                    json1 = jParser.getJSONFromUrl("http://10.0.3.2:8082/api/resetstock", phno);
+
+                json1 = jParser.getJSONFromUrl("http://10.0.3.2:8082/api/resetstock", phno);
+                lostStockUpdates=0;
                 checkStock(json1);
             }
         }
         else
         {
-            notify("No internet connection/Server is down");
-
+            notify("No internet connection");
+            lostStockUpdates++;
         }
         Log.i("Wakeful Completed","Wakeful Complete");
         completeWakefulIntent(intent);

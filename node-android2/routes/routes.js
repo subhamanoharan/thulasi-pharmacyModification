@@ -31,9 +31,8 @@ module.exports = function(app) {
   });
 
   app.post('/api/resetstock', function(req, res) {
-    var email="subha7755@gmail.com";
-    console.log("AM HERE");	
-    stockMaintainer.reset_stock(email,function(found){
+    var phno=req.body.phno;
+    stockMaintainer.reset_stock(phno,function(found){
       console.log(found);
       res.json(found);
   });

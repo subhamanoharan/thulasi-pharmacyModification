@@ -38,7 +38,7 @@ public class RecvAlarm  extends BroadcastReceiver{
          * This intent holds an extra identifying the wake lock.
          */
         Intent service = new Intent(context, MedStockScheduler.class);
-        Toast.makeText(context,"ALARM triggered",Toast.LENGTH_SHORT).show();
+        //Toast.makeText(context,"ALARM triggered",Toast.LENGTH_SHORT).show();
 
         // Start the service, keeping the device awake while it is launching.
         startWakefulService(context, service);
