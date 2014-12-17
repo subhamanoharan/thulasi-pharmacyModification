@@ -4,7 +4,7 @@ ReminderApp  - > Android Application
 * Install MongoDB
 * Install NodeJS
 * Install Android SDK
-* Install IntelliJ IDEA
+* Install Android Studio
 * Install Android Emulators (preferably genymotion)
 
 NodeJS Codebase:
