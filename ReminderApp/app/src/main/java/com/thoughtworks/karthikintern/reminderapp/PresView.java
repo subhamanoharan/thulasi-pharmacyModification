@@ -9,6 +9,7 @@ import android.os.AsyncTask;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -39,6 +40,7 @@ public class PresView extends Activity{
     String phno,jsonmed;
     JSONObject j;
     ConnectionDetector cd;
+    Button back;
 
 
     ArrayList<HashMap<String, String>> medlist = new ArrayList<HashMap<String, String>>();
@@ -60,7 +62,17 @@ public class PresView extends Activity{
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pres);
+        back= (Button)findViewById(R.id.presBack);
+        back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
 
+                Intent profactivity = new Intent(PresView.this, ProfileActivity.class);
+                startActivity(profactivity);
+                finish();
+
+            }
+        });
         //list.addFooterView(new View(this),null,false);
         //list.addHeaderView(new View(this),null,false);
         medlist = new ArrayList<HashMap<String, String>>();
@@ -95,6 +107,7 @@ public class PresView extends Activity{
 
                     Intent imback = new Intent(PresView.this,ProfileActivity.class);
                     dialog.cancel();
+                    imback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(imback);
 
 
@@ -108,7 +121,7 @@ public class PresView extends Activity{
         }
     }
 
-    class JSONOffline extends AsyncTask<String, String, JSONObject> {
+    class JSONOffline extends AsyncTask<String, String, String> {
         private ProgressDialog pDialog;
         @Override
         protected void onPreExecute() {
@@ -127,7 +140,7 @@ public class PresView extends Activity{
         }
         @Override
        // try{
-        protected JSONObject doInBackground(String... args) {
+        protected String doInBackground(String... args) {
 
             //Jparser jParser = new Jparser();
             // Getting JSON from URL
@@ -135,10 +148,11 @@ public class PresView extends Activity{
             pref = getSharedPreferences("AppPref", MODE_PRIVATE);
             phno = pref.getString("phno", null);
             jsonmed = pref.getString("medjson", null);
-
-            JSONObject json2 = null;
+            return jsonmed;
+            /*
+            JSONArray json2 = null;
             try {
-                JSONObject json1 = new JSONObject(jsonmed);
+                JSONArray json1 = new JSONArray(jsonmed);
                 json2 = json1;
             } catch (JSONException j) {
                 j.printStackTrace();
@@ -161,6 +175,7 @@ public class PresView extends Activity{
 
                         Intent imback = new Intent(PresView.this,ProfileActivity.class);
                         dialog.cancel();
+                        imback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                         startActivity(imback);
 
                     }});}
@@ -170,20 +185,23 @@ public class PresView extends Activity{
             // }
 
 
-            return json2;
+            return json2;*/
         }
         // }}
 
         @Override
-        protected void onPostExecute(JSONObject json) {
+        protected void onPostExecute(String med) {
             pDialog.dismiss();
             try {
                 // Getting JSON Array from URL
 
-                try{android = json.getJSONArray(TAG_MED);}
+                try{android = new JSONArray(med);//json.getJSONArray(TAG_MED);
+                 }
                 catch(NullPointerException j){
                     Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
                     Intent imback = new Intent(PresView.this,ProfileActivity.class);
+
+                    imback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(imback);
                     finish();
                 }
@@ -195,6 +213,7 @@ public class PresView extends Activity{
                 catch(NullPointerException j){
                     Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
                     Intent imback = new Intent(PresView.this,ProfileActivity.class);
+                    imback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(imback);
                     finish();
                 }
@@ -205,9 +224,9 @@ public class PresView extends Activity{
                     String str_name = c.getString(TAG_MED_NAME);
                     String str_start = c.getString(TAG_MED_START_DATE);
                     String str_end=c.getString(TAG_MED_END_DATE);
-                    String str_stock=c.getString(TAG_MED_STOCK);
+                    String str_stock=(c.getInt(TAG_MED_STOCK))+"";
                     String str_desc=c.getString(TAG_MED_DESC);
-                    String str_dosage=c.getString(TAG_MED_DOSAGE);
+                    String str_dosage=c.getInt(TAG_MED_DOSAGE)+"";
                     // Adding value HashMap key => value
                     HashMap<String, String> map = new HashMap<String, String>();
                     map.put(TAG_MED_NAME, str_name);
@@ -235,6 +254,8 @@ public class PresView extends Activity{
                 e.printStackTrace();
                 Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
                 Intent switchback= new Intent(PresView.this,ProfileActivity.class);
+
+                switchback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 startActivity(switchback);
                 finish();
             }
@@ -303,6 +324,8 @@ public class PresView extends Activity{
                 catch(NullPointerException j){
                     Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
                     Intent imback = new Intent(PresView.this,ProfileActivity.class);
+
+                    imback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(imback);
                     finish();
                 }
@@ -314,6 +337,7 @@ public class PresView extends Activity{
                 catch(NullPointerException j){
                     Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
                     Intent imback = new Intent(PresView.this,ProfileActivity.class);
+                    imback.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                     startActivity(imback);
                     finish();
                 }
@@ -351,6 +375,14 @@ public class PresView extends Activity{
                     });
                 }
             } catch (JSONException e) {
+                e.printStackTrace();
+                Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
+                Intent switchback= new Intent(PresView.this,ProfileActivity.class);
+                startActivity(switchback);
+                finish();
+            }
+            catch(NullPointerException e)
+            {
                 e.printStackTrace();
                 Toast.makeText(PresView.this,"Not Connected to Network",Toast.LENGTH_SHORT).show();
                 Intent switchback= new Intent(PresView.this,ProfileActivity.class);

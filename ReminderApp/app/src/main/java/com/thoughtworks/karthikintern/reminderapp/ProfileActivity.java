@@ -103,8 +103,11 @@ public class ProfileActivity extends Activity {
                         ServerRequest sr = new ServerRequest();
                         //    JSONObject json = sr.getJSON("http://192.168.56.1:8080/api/chgpass",params);
                         //JSONObject json = sr.getJSON("http://10.0.2.2:8082/api/chgpass", params);
-
-                        JSONObject json = sr.getJSON("http://10.0.3.2:8082/api/chgpass", params);
+                        JSONObject json=null;
+                        ConnectionDetector cd = new ConnectionDetector(getApplicationContext());
+                        Boolean isInternetPresent = cd.isConnectingToInternet();
+                        if(isInternetPresent)
+                           json = sr.getJSON("http://10.0.3.2:8082/api/chgpass", params);
                         if (json != null) {
                             try {
                                 String jsonstr = json.getString("response");
@@ -118,6 +121,8 @@ public class ProfileActivity extends Activity {
                                 e.printStackTrace();
                             }
                         }
+                        else
+                            Toast.makeText(getApplication(),"Not connected to the internet",Toast.LENGTH_SHORT).show();
                     }
                 });
                 cancel = (Button) dlg.findViewById(R.id.cancelbtn);

@@ -29,6 +29,8 @@ public class ServerRequest {
     public ServerRequest() {
     }
     public JSONObject getJSONFromUrl(String url, List<NameValuePair> params) {
+
+
         try {
             DefaultHttpClient httpClient = new DefaultHttpClient();
             HttpPost httpPost = new HttpPost(url);

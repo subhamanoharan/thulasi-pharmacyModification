@@ -74,8 +74,8 @@ public class RegisterActivity extends Activity {
                     }
                 }
                 else
-                register.setText("JSON is null");
-               /* Intent switchactivity=new Intent(RegisterActivity.this,LoginActivity.class);
+                    Toast.makeText(getApplication(),"No internet Connection",Toast.LENGTH_LONG).show();
+                        /* Intent switchactivity=new Intent(RegisterActivity.this,LoginActivity.class);
                 startActivity(switchactivity);
                 finish();*/
             }
